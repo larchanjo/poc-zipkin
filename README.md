@@ -19,7 +19,7 @@ This is a simple poc using [Zipkin] and [Micronaut]
 1. Start `catalogue-service`
 2. Start `inventory-service`
 3. Start `recommendation-service`
-4. Open the url `http://localhost:8081/recommendations`
+4. Open the url `http://localhost:8083/recommendations`
 
 [Zipkin]: https://zipkin.io
 [Consul]: https://www.consul.io
