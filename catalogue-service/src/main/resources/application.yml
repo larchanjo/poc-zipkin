@@ -1,0 +1,20 @@
+---
+micronaut:
+    application:
+        name: catalogue-service
+    server:
+      port: 8081
+---
+tracing:
+  zipkin:
+    enabled: true
+    http:
+      url: http://localhost:9411
+    sampler:
+      probability: 1
+---
+consul:
+  client:
+    registration:
+      enabled: true
+    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"

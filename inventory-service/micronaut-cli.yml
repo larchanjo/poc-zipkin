@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: inventory.service
+---
+testFramework: junit
+sourceLanguage: java
